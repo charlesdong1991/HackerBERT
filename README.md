@@ -3,6 +3,8 @@
 This is a simple demonstration to combine BERT with elasticsearch to improve
 search quality.
 
+![](gh_demo.gif)
+
 All setups are composed using Docker. In order to replicate the project, please
  just follow the steps below:
  
