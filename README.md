@@ -24,9 +24,10 @@ is needed to find search items, so simply do
 export SEARCH_INDEX=any_search_index_name
 ```
 
-- Build and run dockers, there is the `docker-compose` file which composes of 
+- Move into the cloned repo, build and run dockers, there is the `docker-compose` file which composes of 
 several dockers:
 ```bash
+cd HackerBERT
 docker-compose build
 docker-compose up
 ```
