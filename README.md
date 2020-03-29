@@ -6,6 +6,12 @@ search quality.
 All setups are composed using Docker. In order to replicate the project, please
  just follow the steps below:
  
+- Download HackerNews public data from Google BigQuery Public Dataset, and save
+it locally and set the path to dataset as environment variable:
+```bash
+export DATA_PATH=path_to_your_csv
+```
+ 
 - Download the BERT pre-trained embeddings. There are many pre-trained embeddings
 available, for instance, you could use `wget`:
 ```bash
