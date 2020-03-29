@@ -1,0 +1,3 @@
+pandas>=1.0.3
+pandas-gbq
+google-cloud-bigquery
